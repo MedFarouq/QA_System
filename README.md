@@ -8,10 +8,14 @@ Ce projet implémente un système de questions-réponses basé sur un document t
 
 Le système suit quatre étapes principales :
 
-Chargement du document → Extraction du texte depuis un fichier TXT ou PDF.
-Encodage sémantique → Conversion du texte en vecteurs numériques à l’aide d’un modèle d’embeddings (all-MiniLM-L6-v2).
-Stockage et recherche → Indexation et recherche des passages pertinents grâce à FAISS.
-Génération de réponse → Utilisation du modèle Flan-T5-Small pour formuler une réponse basée sur le contenu trouvé.
+Chargement du document : Extraction du texte depuis un fichier TXT ou PDF.
+
+Encodage sémantique : Conversion du texte en vecteurs numériques à l’aide d’un modèle d’embeddings (all-MiniLM-L6-v2).
+
+Stockage et recherche : Indexation et recherche des passages pertinents grâce à FAISS.
+
+Génération de réponse : Utilisation du modèle Flan-T5-Small pour formuler une réponse basée sur le contenu trouvé.
+
 
 **Choix Techniques**
 
